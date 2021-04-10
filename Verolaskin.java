@@ -17,9 +17,8 @@ public class Verolaskin {
         vero=numero1*numero2/100;
         veroton=numero1-vero;
 
-        JOptionPane.showMessageDialog(null, "Vero: " + vero +" e" , "Verolaskin", JOptionPane.PLAIN_MESSAGE );
-        JOptionPane.showMessageDialog(null, "Veroton hinta : " + veroton +" e" , "Verolaskin", JOptionPane.PLAIN_MESSAGE );
-        
+        JOptionPane.showMessageDialog(null, "Vero: " + vero +" e\n" + "Veroton hinta: " +veroton +" e", "Verolaskin", JOptionPane.PLAIN_MESSAGE );
+                
         System.exit(0);
     }
 }
